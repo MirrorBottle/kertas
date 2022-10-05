@@ -32,11 +32,12 @@
         </label>
         <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
           <li>
-            <a href="<?= $_SESSION['role'] = 'admin' ? '../../admin/dashboard' : '../../user/dashboard' ?>">
-              <i class="fa-regular fa-user"></i>
-              <span>Profile</span>
+            <a href="<?= $_SESSION['role'] == 'admin' ? '../../admin/dashboard' : '../../user/dashboard' ?>">
+              <i class="fa-solid fa-home"></i>
+              <span>Dashboard</span>
             </a>
           </li>
+          <?php if($_SESSION['role'] == 'user'): ?>
           <li>
             <a href="../../auth/logout.php">
               <i class="fa-regular fa-pen-to-square"></i>
@@ -49,6 +50,7 @@
               <span>Bookmark</span>
             </a>
           </li>
+          <?php endif; ?>
           <li>
             <a href="../../auth/logout.php" class="text-error">
               <i class="fa-solid fa-arrow-right-from-bracket"></i>

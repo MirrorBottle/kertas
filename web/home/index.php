@@ -30,7 +30,7 @@ session_start();
     </h1>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <div class="card bg-base-100 shadow-md h-[130px]">
+      <div class="card bg-base-100 shadow-md h-[140px]">
         <div class="card-body pr-5 py-7 pl-0">
           <div class="flex">
             <div class="pr-4 pl-4 flex align-center">
@@ -52,7 +52,7 @@ session_start();
           </div>
         </div>
       </div>
-      <div class="card bg-base-100 shadow-md h-[130px]">
+      <div class="card bg-base-100 shadow-md h-[140px]">
         <div class="card-body pr-5 py-7 pl-0">
           <div class="flex">
             <div class="pr-4 pl-4 flex align-center">
@@ -74,7 +74,7 @@ session_start();
           </div>
         </div>
       </div>
-      <div class="card bg-base-100 shadow-md h-[130px]">
+      <div class="card bg-base-100 shadow-md h-[140px]">
         <div class="card-body pr-5 py-7 pl-0">
           <div class="flex">
             <div class="pr-4 pl-4 flex align-center">
@@ -107,48 +107,82 @@ session_start();
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
       <div class="col-span-2">
-        <div class="card bg-base-100 shadow-md h-[130px]">
-          <div class="card-body pr-5 py-7 pl-0">
-            <div class="flex">
-              <div class="pr-4 pl-4 flex align-center">
-                <h2 class="text-3xl text-base-300 font-bold"><span>01</span></h2>
+        <div class="card bg-base-100 shadow-xl">
+          <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" class="w-full" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div>
+      </div>
+      <div class="container lg:overflow-y-auto lg:h-[33rem]">
+        <div class="card bg-base-100 shadow-md h-[140px] mb-3">
+          <div class="card-body">
+            <div class="card-content">
+              <div class="avatar flex align-center justify-center">
+                <div class="w-5 rounded-full">
+                  <img src="https://placeimg.com/192/192/people" alt="Tailwind-CSS-Avatar-component" />
+                </div>
+                <p class="text-sm ml-2"><span>Bayu Setiawan</span></p>
               </div>
-              <div class="card-content">
-                <div class="avatar flex align-center justify-center">
-                  <div class="w-5 rounded-full">
-                    <img src="https://placeimg.com/192/192/people" alt="Tailwind-CSS-Avatar-component" />
-                  </div>
-                  <p class="text-sm ml-2"><span>Bayu Setiawan</span></p>
-                </div>
-                <h3 class="card-title mt-2 text-base">Image Generation Announcement!</h3>
-                <div class="alt-info-container"
-                  <span class="text-xs">Okt 1</span>
-                  <span class="ml-3 badge p-2">Machine Learning</span>
-                </div>
+              <h3 class="card-title mt-2 text-base">Image Generation Announcement!</h3>
+              <div class="alt-info-container">
+                <span class="text-xs">Okt 1</span>
+                <span class="ml-3 badge p-2">Machine Learning</span>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="card bg-base-100 shadow-md h-[130px]">
-          <div class="card-body pr-5 py-7 pl-0">
-            <div class="flex">
-              <div class="pr-4 pl-4 flex align-center">
-                <h2 class="text-3xl text-base-300 font-bold"><span>01</span></h2>
+        
+        <div class="card bg-base-100 shadow-md h-[140px] mb-3">
+          <div class="card-body">
+            <div class="card-content">
+              <div class="avatar flex align-center justify-center">
+                <div class="w-5 rounded-full">
+                  <img src="https://placeimg.com/192/192/people" alt="Tailwind-CSS-Avatar-component" />
+                </div>
+                <p class="text-sm ml-2"><span>Bayu Setiawan</span></p>
               </div>
-              <div class="card-content">
-                <div class="avatar flex align-center justify-center">
-                  <div class="w-5 rounded-full">
-                    <img src="https://placeimg.com/192/192/people" alt="Tailwind-CSS-Avatar-component" />
-                  </div>
-                  <p class="text-sm ml-2"><span>Bayu Setiawan</span></p>
+              <h3 class="card-title mt-2 text-base">Image Generation Announcement!</h3>
+              <div class="alt-info-container">
+                <span class="text-xs">Okt 1</span>
+                <span class="ml-3 badge p-2">Machine Learning</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-md h-[140px] mb-3">
+          <div class="card-body">
+            <div class="card-content">
+              <div class="avatar flex align-center justify-center">
+                <div class="w-5 rounded-full">
+                  <img src="https://placeimg.com/192/192/people" alt="Tailwind-CSS-Avatar-component" />
                 </div>
-                <h3 class="card-title mt-2 text-base">Image Generation Announcement!</h3>
-                <div class="alt-info-container"
-                  <span class="text-xs">Okt 1</span>
-                  <span class="ml-3 badge p-2">Machine Learning</span>
+                <p class="text-sm ml-2"><span>Bayu Setiawan</span></p>
+              </div>
+              <h3 class="card-title mt-2 text-base">Image Generation Announcement!</h3>
+              <div class="alt-info-container">
+                <span class="text-xs">Okt 1</span>
+                <span class="ml-3 badge p-2">Machine Learning</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-md h-[140px] mb-3">
+          <div class="card-body">
+            <div class="card-content">
+              <div class="avatar flex align-center justify-center">
+                <div class="w-5 rounded-full">
+                  <img src="https://placeimg.com/192/192/people" alt="Tailwind-CSS-Avatar-component" />
                 </div>
+                <p class="text-sm ml-2"><span>Bayu Setiawan</span></p>
+              </div>
+              <h3 class="card-title mt-2 text-base">Image Generation Announcement!</h3>
+              <div class="alt-info-container">
+                <span class="text-xs">Okt 1</span>
+                <span class="ml-3 badge p-2">Machine Learning</span>
               </div>
             </div>
           </div>

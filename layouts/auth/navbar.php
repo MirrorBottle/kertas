@@ -1,6 +1,6 @@
 <nav class="navbar bg-base-200">
   <div class="navbar-start">
-    <a class="btn btn-ghost normal-case text-xl">
+    <a href="../web" class="btn btn-ghost normal-case text-xl">
       <img src="../assets/img/logo_black.png" style="height: 50px;">
       <span>Kertas</span>
     </a>

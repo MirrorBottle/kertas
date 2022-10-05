@@ -1,7 +1,7 @@
 <?php
 
 if(isset($_SESSION['status'])) {
-  if($_SESSION['role'] = 'admin') {
+  if($_SESSION['role'] == 'admin') {
     header("Location:../admin/dashboard");
   } else {
     header("Location:../user/dashboard");
