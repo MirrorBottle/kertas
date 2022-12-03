@@ -7,8 +7,7 @@
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         <li><a href="../../web/about">Tentang</a></li>
         <li><a href="../../web/journal">Jurnal</a></li>
-        <li><a href="../../web/news">Berita</a></li>
-        <li><a href="../../web/guide">Panduan</a></li>
+        <li><a href="../../web/articles">Artikel</a></li>
       </ul>
     </div>
     <a href="../../web/home" class="btn btn-ghost normal-case text-xl">
@@ -20,15 +19,14 @@
     <ul class="menu menu-horizontal p-0">
       <li><a href="../../web/about">Tentang</a></li>
       <li><a href="../../web/journal">Jurnal</a></li>
-      <li><a href="../../web/news">Berita</a></li>
-      <li><a href="../../web/guide">Panduan</a></li>
+      <li><a href="../../web/articles">Artikel</a></li>
     </ul>
   </div>
   <div class="navbar-end">
     <?php if(isset($_SESSION['status'])): ?>
       <div class="dropdown dropdown-end">
         <label tabindex="0" class="btn btn-ghost normal-case m-1">
-          <span><?= $_SESSION['email'] ?></span>
+          <span><?= $_SESSION['name'] ?></span>
         </label>
         <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
           <li>

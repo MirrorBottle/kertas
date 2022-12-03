@@ -16,13 +16,10 @@
       <a class="<?= in_array("users", $link_array) ? 'active' : ''  ?>" href="../../admin/users"><i class="fa-solid fa-users"></i>Daftar Pengguna</a>
     </li>
     <li>
-      <a class="<?= in_array("guides", $link_array) ? 'active' : ''  ?>" href="../../admin/guides"><i class="fa-solid fa-person-circle-question"></i>Panduan</a>
+      <a class="<?= in_array("articles", $link_array) ? 'active' : ''  ?>" href="../../admin/articles"><i class="fa-solid fa-pen-nib"></i>Artikel</a>
     </li>
     <li>
-      <a class="<?= in_array("news", $link_array) ? 'active' : ''  ?>" href="../../admin/news"><i class="fa-solid fa-pen-nib"></i>Berita</a>
-    </li>
-    <li>
-      <a class="<?= in_array("settings", $link_array) ? 'active' : ''  ?>" href="../../admin/settings"><i class="fa-solid fa-gears"></i>Pengaturan</a>
+      <a class="<?= in_array("tags", $link_array) ? 'active' : ''  ?>" href="../../admin/tags"><i class="fa-solid fa-tag"></i>Tag</a>
     </li>
     <?php else: ?>
     <li>
@@ -31,15 +28,7 @@
     <li>
       <a class="<?= in_array("journals", $link_array) ? 'active' : ''  ?>" href="../../user/journals"><i class="fa-regular fa-newspaper"></i>Jurnal</a>
     </li>
-    <li>
-      <a class="<?= in_array("bookmarks", $link_array) ? 'active' : ''  ?>" href="../../user/bookmarks"><i class="fa-solid fa-bookmark"></i>Bookmark</a>
-    </li>
-    <li>
-      <a class="<?= in_array("notes", $link_array) ? 'active' : ''  ?>" href="../../user/notes"><i class="fa-regular fa-pen-to-square"></i>Catatan</a>
-    </li>
-    <li>
-      <a class="<?= in_array("profile", $link_array) ? 'active' : ''  ?>" href="../../user/profile"><i class="fa-regular fa-user"></i>Profile</a>
-    </li>
+    
     <?php endif ?>
   </ul>
   

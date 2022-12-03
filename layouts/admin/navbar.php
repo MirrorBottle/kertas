@@ -10,7 +10,7 @@
   <div class="navbar-end">
     <div class="dropdown dropdown-end">
       <label tabindex="0" class="btn btn-ghost normal-case m-1">
-        <span><?= $_SESSION['email'] ?></span>
+        <span><?= $_SESSION['name'] ?></span>
       </label>
       <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
         <li>
@@ -19,26 +19,6 @@
             <span>Halaman Depan</span>
           </a>
         </li>
-        <?php if($_SESSION['role'] == 'user'): ?>
-          <li>
-            <a href="../../auth/logout.php">
-              <i class="fa-solid fa-user"></i>
-              <span>Profile</span>
-            </a>
-          </li>
-          <li>
-            <a href="../../auth/logout.php">
-              <i class="fa-regular fa-pen-to-square"></i>
-              <span>Catatan</span>
-            </a>
-          </li>
-          <li>
-            <a href="../../auth/logout.php">
-              <i class="fa-regular fa-bookmark"></i>
-              <span>Bookmark</span>
-            </a>
-          </li>
-        <?php endif; ?>
         <li>
           <a href="../../auth/logout.php" class="text-error">
             <i class="fa-solid fa-arrow-right-from-bracket"></i>
