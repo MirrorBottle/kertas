@@ -7,7 +7,6 @@ $articles = query("SELECT
   tags.title as tag_title
   FROM articles
   JOIN tags ON articles.tag_id=tags.id
-  WHERE status = 2
 ");
 ?>
 <section id="trending" class="lg:px-48 px-8 py-8 min-h-screen">
